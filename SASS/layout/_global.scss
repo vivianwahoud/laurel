@@ -1,0 +1,31 @@
+    body {
+        background-color: color(primary);
+    }
+    
+    .container {
+        margin: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        position: relative;
+        @media #{$minSmall} {
+            width: 750px;
+        }
+        @media #{$minMedium} {
+            width: 970px;
+        }
+        @media #{$minLarg} {
+            width: 1170px;
+        }
+    }
+    
+    .clearfix {
+        clear: both;
+    }
+    
+    .text-center {
+        text-align: center;
+    }
+    
+    li {
+        list-style: none;
+    }

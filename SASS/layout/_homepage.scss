@@ -1,0 +1,209 @@
+.header {
+    margin-top: 200px;
+    .left-side {
+        float: left;
+        display: block;
+        margin-bottom: 50px;
+        @media #{$maxMobile} {
+            width: auto;
+            float: none;
+            padding-left: 25px;
+            text-align: center;
+        }
+        @media #{$minSmall} {
+            width: 400px;
+        }
+        @media #{$minLarg} {
+            width: 500px;
+        }
+        h1 {
+            font-size: 50px;
+            color: #fff;
+        }
+        p {
+            color: color(font-col);
+            font-size: 24px;
+        }
+        .Darkblue-button {
+            margin-right: 25px;
+        }
+        .pink-button {
+            margin-right: 25px;
+        }
+    }
+    .right-side {
+        float: right;
+        @media #{$maxMobile} {
+            width: auto;
+            float: none;
+            text-align: center;
+        }
+        @media #{$minSmall} {
+            width: auto;
+        }
+        @media #{$minLarg} {}
+        img {
+            width: 350px;
+            height: auto;
+        }
+    }
+}
+
+.container {
+    .Boldfeatures {
+        margin-top: 200px;
+        h2 {
+            font-size: 40px;
+            color: #fff;
+            font-weight: bold;
+        }
+        .card {
+            @media #{$maxMobile} {
+                float: left;
+                width: (100% /1);
+                text-align: center;
+            }
+            @media #{$minSmall} {
+                float: left;
+                width: (100% /2);
+            }
+            @media #{$minLarg} {
+                float: left;
+                width: (100% /3);
+            }
+            img {
+                width: 100px;
+                ;
+            }
+            h3 {
+                color: #fff;
+                font-size: 24px;
+            }
+            p {
+                color: color(font-col);
+                font-size: 20px;
+                padding-right: 15px;
+                padding-bottom: 30px;
+            }
+        }
+    }
+    hr {
+        border-color: color(font-col);
+    }
+}
+
+.Laurel {
+    margin-top: 50px;
+    h2 {
+        color: #fff;
+        font-size: 36px;
+        font-weight: bold;
+    }
+    p {
+        color: color(font-col);
+        font-size: 20px;
+        @media #{$minLarg} {
+            padding-bottom: 50px;
+            margin-left: 250px;
+            margin-right: 250px;
+        }
+    }
+    video {
+        @media #{$minLarg} {
+            width: 800px;
+            height: 450px;
+        }
+    }
+}
+
+.Stay {
+    margin-top: 200px;
+    h2 {
+        color: #fff;
+        font-size: 36px;
+        font-weight: bold;
+    }
+    p {
+        color: color(font-col);
+        font-size: 20px;
+        @media #{$minLarg} {
+            padding-bottom: 50px;
+            margin-left: 250px;
+            margin-right: 250px;
+        }
+    }
+    .button-section {
+        margin-bottom: 50px;
+        form {
+            input.pink-button {
+                @media #{$maxSmall} {
+                    width: 324px !important;
+                }
+            }
+        }
+        hr {
+            border-color: color(font-col);
+        }
+    }
+}
+
+.footer {
+    padding-bottom: 102px;
+    .left-section {
+        img {
+            @media #{$maxMobile} {
+                padding-left: 40%;
+            }
+            @media #{$minSmall} {}
+            @media #{$minLarg} {}
+        }
+        p {
+            color: color(font-col);
+            @media #{$maxMobile} {
+                text-align: center;
+            }
+            @media #{$minSmall} {}
+            @media #{$minLarg} {}
+        }
+    }
+    .right-section {
+        @media #{$maxMobile} {
+            float: none;
+            text-align: center;
+        }
+        @media #{$minSmall} {
+            margin-top: -70px;
+        }
+        @media #{$minLarg} {
+            margin-top: -60px;
+        }
+        i {
+            color: #fff;
+            padding-left: 25px;
+            float: right;
+            @media #{$maxMobile} {
+                float: none;
+                padding-left: 50px;
+            }
+            @media #{$minSmall} {}
+            @media #{$minLarg} {}
+        }
+    }
+    .nav {
+        ul {
+            @media #{$minLarg} {}
+            li {
+                float: right;
+                a {
+                    color: color(font-col);
+                    padding-left: 30px;
+                    @media #{$maxMobile} {
+                        padding-right: 29px;
+                        text-align: center;
+                    }
+                    @media #{$minLarg} {}
+                }
+            }
+        }
+    }
+}

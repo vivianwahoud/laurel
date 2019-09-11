@@ -1,0 +1,202 @@
+body {
+  background-color: #06101f; }
+
+.container {
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative; }
+  @media (min-width: 768px) {
+    .container {
+      width: 750px; } }
+  @media (min-width: 992px) {
+    .container {
+      width: 970px; } }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px; } }
+
+.clearfix {
+  clear: both; }
+
+.text-center {
+  text-align: center; }
+
+li {
+  list-style: none; }
+
+.Darkblue-button {
+  background-color: #273c5a;
+  height: 50px;
+  width: 200px;
+  color: #fff;
+  font-weight: bold;
+  border: none; }
+
+.pink-button {
+  background-color: #f9425f;
+  height: 50px;
+  width: 200px;
+  color: #fff;
+  font-weight: bold;
+  border: none; }
+
+.email-button {
+  height: 42px;
+  width: 300px;
+  padding-left: 20px; }
+
+.header {
+  margin-top: 200px; }
+  .header .left-side {
+    float: left;
+    display: block;
+    margin-bottom: 50px; }
+    @media (max-width: 767px) {
+      .header .left-side {
+        width: auto;
+        float: none;
+        padding-left: 25px;
+        text-align: center; } }
+    @media (min-width: 768px) {
+      .header .left-side {
+        width: 400px; } }
+    @media (min-width: 1200px) {
+      .header .left-side {
+        width: 500px; } }
+    .header .left-side h1 {
+      font-size: 50px;
+      color: #fff; }
+    .header .left-side p {
+      color: #38465b;
+      font-size: 24px; }
+    .header .left-side .Darkblue-button {
+      margin-right: 25px; }
+    .header .left-side .pink-button {
+      margin-right: 25px; }
+  .header .right-side {
+    float: right; }
+    @media (max-width: 767px) {
+      .header .right-side {
+        width: auto;
+        float: none;
+        text-align: center; } }
+    @media (min-width: 768px) {
+      .header .right-side {
+        width: auto; } }
+    .header .right-side img {
+      width: 350px;
+      height: auto; }
+
+.container .Boldfeatures {
+  margin-top: 200px; }
+  .container .Boldfeatures h2 {
+    font-size: 40px;
+    color: #fff;
+    font-weight: bold; }
+  @media (max-width: 767px) {
+    .container .Boldfeatures .card {
+      float: left;
+      width: 100%;
+      text-align: center; } }
+  @media (min-width: 768px) {
+    .container .Boldfeatures .card {
+      float: left;
+      width: 50%; } }
+  @media (min-width: 1200px) {
+    .container .Boldfeatures .card {
+      float: left;
+      width: 33.3333333333%; } }
+  .container .Boldfeatures .card img {
+    width: 100px; }
+  .container .Boldfeatures .card h3 {
+    color: #fff;
+    font-size: 24px; }
+  .container .Boldfeatures .card p {
+    color: #38465b;
+    font-size: 20px;
+    padding-right: 15px;
+    padding-bottom: 30px; }
+.container hr {
+  border-color: #38465b; }
+
+.Laurel {
+  margin-top: 50px; }
+  .Laurel h2 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: bold; }
+  .Laurel p {
+    color: #38465b;
+    font-size: 20px; }
+    @media (min-width: 1200px) {
+      .Laurel p {
+        padding-bottom: 50px;
+        margin-left: 250px;
+        margin-right: 250px; } }
+  @media (min-width: 1200px) {
+    .Laurel video {
+      width: 800px;
+      height: 450px; } }
+
+.Stay {
+  margin-top: 200px; }
+  .Stay h2 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: bold; }
+  .Stay p {
+    color: #38465b;
+    font-size: 20px; }
+    @media (min-width: 1200px) {
+      .Stay p {
+        padding-bottom: 50px;
+        margin-left: 250px;
+        margin-right: 250px; } }
+  .Stay .button-section {
+    margin-bottom: 50px; }
+    @media (max-width: 991px) {
+      .Stay .button-section form input.pink-button {
+        width: 324px !important; } }
+    .Stay .button-section hr {
+      border-color: #38465b; }
+
+.footer {
+  padding-bottom: 102px; }
+  @media (max-width: 767px) {
+    .footer .left-section img {
+      padding-left: 40%; } }
+  .footer .left-section p {
+    color: #38465b; }
+    @media (max-width: 767px) {
+      .footer .left-section p {
+        text-align: center; } }
+  @media (max-width: 767px) {
+    .footer .right-section {
+      float: none;
+      text-align: center; } }
+  @media (min-width: 768px) {
+    .footer .right-section {
+      margin-top: -70px; } }
+  @media (min-width: 1200px) {
+    .footer .right-section {
+      margin-top: -60px; } }
+  .footer .right-section i {
+    color: #fff;
+    padding-left: 25px;
+    float: right; }
+    @media (max-width: 767px) {
+      .footer .right-section i {
+        float: none;
+        padding-left: 50px; } }
+  .footer .nav ul li {
+    float: right; }
+    .footer .nav ul li a {
+      color: #38465b;
+      padding-left: 30px; }
+      @media (max-width: 767px) {
+        .footer .nav ul li a {
+          padding-right: 29px;
+          text-align: center; } }
+
+/*# sourceMappingURL=website.css.map */
